@@ -1,0 +1,75 @@
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> 7 </title>
+    </head>
+    <body>
+
+        <h1> Ankieta </h1>
+        <h2> Podziel się swoimi danymi osobowymi! </h2>
+
+        <a href="index.html" class="back" target="_self"> Powrót na stronę główną </a>
+
+        <button onclick="topFunction()" id="myBtn" title="Powrót na górę"> <img src="foto/arrow.png" id="myBtn-img"> </button>
+
+        <form>
+
+            <button>
+                <input type="reset">
+            </button>
+
+            <button style="float: left;">
+                <input type="submit">
+            </button>
+
+            <br> <br>
+
+
+            <label for="imie"> Imię: </label> <br>
+            <input type="text" id="imie" name="imie"> <br>
+            <label for="nazwisko"> Nazwisko: </label> <br>
+            <input type="text" id="nazwisko" name="nazwisko"> <br>
+
+            <label for="mail"> Mail: </label> <br>
+            <input type="email" id="mail" name="mail">
+
+            <p> Jakiej akrualnie przeglądarki używasz? </p>
+
+            <input type="radio" id="firefox" name="browser" value="firefox">
+            <label for="firefox"> Firefox </label> <br>
+            <input type="radio" id="chrome" name="browser" value="chrome">
+            <label for="chrome"> Chrome </label> <br>
+            <input type="radio" id="edge" name="browser" value="edge">
+            <label for="edge"> Edge </label> <br>
+            <input type="radio" id="opera" name="browser" value="opera">
+            <label for="opera"> Opera </label> <br>
+            <input type="radio" id="lynx" name="browser" value="lynx">
+            <label for="lynx"> Lynx </label> <br>
+            <input type="radio" id="dif" name="browser" value="dif">
+            <label for="dif"> Innej </label>
+
+            <p> Z jakiego systemu aktualnie kożystasz? </p>
+
+            <input type="radio" id="windows" name="system" value="windows">
+            <label for="windows"> Windows </label> <br>
+            <input type="radio" id="linux" name="system" value="linux">
+            <label for="linux"> Linux </label> <br>
+            <input type="radio" id="macos" name="system" value="macos">
+            <label for="linux"> Macos </label> <br>
+            <input type="radio" id="dif" name="system" value="dif">
+            <label for="dif"> Inny </label>
+
+            <p> Co najbardziej cenisz w swoim systemie operacyjnym? </p>
+
+            <textarea name="text" rows="10" cols="30"> </textarea> <br> <br> <br> <br>
+
+                
+        </form>
+
+
+
+
+        <script src="script.js"> </script>
+    </body>
+</html>
